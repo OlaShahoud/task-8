@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "light";
+}
+
+.navBar {
+    width: 100%;
+    height: 48px;
+    align-items: center;
+    position: fixed;
+    z-index: 20;
+    background-color: white;
+    box-shadow: 0px 1px 20px 0px #dddddd;
+    display: flex;
+}
+
+.container-logo {
+    display: flex;
+    width: 50%;
+}
+
+.logo {
+    margin: 0 20px;
+    width: 60px;
+}
+
+.container-logo h1 {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu-item {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item:hover {
+    border-bottom: 2px solid #ff8500;
+}
+
+.menu-item1 a,
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.res-menu-item {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.menuRes {
+    display: none;
+}
+
+.menu-item1 {
+    background-color: #ff8500;
+    display: flex;
+    position: absolute;
+    margin-top: 0px;
+    z-index: 22;
+    right: 0;
+    top: 50px;
+    flex-direction: column;
+    list-style: none;
+    padding: 10px;
+    width: 250px;
+    align-items: center;
+    height: 90%;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.menu-item1 li {
+    padding-top: 10px;
+}
+
+.hero {
+    display: flex;
+    height: 100vh;
+}
+
+.hero-one {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    padding: 0px 20px;
+}
+
+.hero-one h1 {
+    color: #ff8500;
+    margin-bottom: 20px;
+}
+
+.hero-one p {
+    width: 70%;
+}
+
+.bloud {
+    font-weight: bolder;
+}
+
+.hero-two {
+    width: 53%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.game {
+    width: 26vw;
+    position: absolute;
+    right: 14px;
+    bottom: 43px;
+    z-index: 10;
+}
+
+.pattern {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    height: 30vw;
+}
+
+.footter {
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.title-fot {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    color: white;
+}
+
+.list-icone {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    list-style: none;
+    left: 70px;
+}
+
+.list-icone li {
+    margin: 10px;
+}
+
+.list-icone li a {
+    color: white;
+}
+
+.services-card {
+    width: 550px;
+    padding: 0px 10px;
+    margin-right: auto;
+    box-shadow: 0px 10px 20px 10px #dddddd;
+    border-radius: 20px;
+    height: 350px;
+    position: relative;
+}
+
+.services-card p {
+    width: 80%;
+    line-height: 22px;
+}
+
+.services-card h3 {
+    padding: 10px 10px;
+}
+
+.services-card h1 {
+    padding: 10px 10px;
+}
+
+.title-h1 {
+    border-bottom: 2px solid #ff8500;
+    width: min-content;
+}
+
+.h1-title {
+    border-bottom: 2px solid #a513ff;
+    width: min-content;
+}
+
+.services-list-card {
+    display: flex;
+    margin: 100px 40px;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    padding: 0px 10px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 3px;
+}
+
+.ma-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+}
+
+.title-services {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hosting,
+.footer {
+    background-color: #282828;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.hosting-card-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+    flex-wrap: wrap;
+}
+
+.hosting-card {
+    width: 300px;
+    padding: 10px;
+    height: 320px;
+    background-color: white;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+}
+
+.hosting-card1 {
+    border-top: 20px solid #ff8500;
+}
+
+.hosting-card2 {
+    border-top: 20px solid #a513ff;
+}
+
+.hosting-card3 {
+    border-top: 20px solid #71aa27;
+}
+
+.hosting-card4 {
+    border-top: 20px solid #1d5edd;
+}
+
+.hosting-card p {
+    width: 80%;
+    padding: 10px 0px;
+}
+
+.hosting-card ul li {
+    list-style: none;
+}
+
+.hosting-card button {
+    display: flex;
+    margin: 20px auto;
+    width: 200px;
+    justify-content: center;
+    padding: 5px 0px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.hosting-card1 button {
+    border: 2px solid #ff8500;
+}
+
+.hosting-card2 button {
+    border: 2px solid #a513ff;
+}
+
+.hosting-card3 button {
+    border: 2px solid #71aa27;
+}
+
+.hosting-card4 button {
+    border: 2px solid #1d5edd;
+}
+
+.host-list li span {
+    font-weight: bolder;
+}
+
+.hosting-footer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.hosting-footer p {
+    padding-bottom: 5px;
+}
+
+.footer {
+    padding: 10px 30px;
+}
+
+.one-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.one-one-footer {
+    display: flex;
+}
+
+.one-one-footer img {
+    margin-right: 5px;
+}
+
+.one-one-footer p {
+    display: flex;
+    align-items: end;
+    font-size: 20px;
+}
+
+.one-one-footer2 ul {
+    list-style: none;
+}
+
+.one-title-footer {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 39px;
+    margin-bottom: 9px;
+}
+
+.one-one-footer2 li {
+    line-height: 20px;
+}
+
+.list-icone-footer {
+    display: flex;
+    width: 100%;
+}
+
+.list-icone-footer li a {
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.two-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.two-footer p {
+    font-size: 20px;
+}
+
+.br {
+    width: 60%;
+    height: 2px;
+    color: white;
+    background-color: white;
+}
+
+@media screen and (max-width: 1200px) {
+    .res-menu-item {
+        visibility: visible;
+        margin-right: 20px;
+    }
+    .container-logo {
+        width: 90%;
+    }
+    .menu {
+        visibility: hidden;
+        width: 20%;
+    }
+    .menu-item {
+        width: 0%;
+    }
+    .services-card,
+    .hosting-card {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hosting-footer p {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-one {
+        width: 70%;
+    }
+    .hero-one p {
+        width: 100%;
+    }
+    .title-fot {
+        bottom: 20px;
+        right: 10px;
+    }
+    .list-icone {
+        left: 30px;
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .title-fot {
+        bottom: 0px;
+        font-size: 12px;
+    }
+    .list-icone {
+        bottom: -6px;
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+    .hero-one {
+        width: 100%;
+    }
+    .hero-two {
+        width: 100%;
+        justify-content: start;
+        height: 50%;
+    }
+    .hero {
+        flex-wrap: wrap;
+    }
+    .game {
+        width: 50vw;
+        right: 14px;
+        bottom: 30px;
+    }
+    .pattern {
+        width: 40vw;
+        height: 100vw;
+    }
+    .services-card {
+        height: 450px;
+    }
+}
